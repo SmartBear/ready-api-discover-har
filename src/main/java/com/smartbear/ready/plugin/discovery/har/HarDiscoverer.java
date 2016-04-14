@@ -11,6 +11,7 @@ import de.sstoehr.harreader.model.HarEntry;
 import de.sstoehr.harreader.model.HarHeader;
 import de.sstoehr.harreader.model.HarPostDataParam;
 import de.sstoehr.harreader.model.HarRequest;
+import de.sstoehr.harreader.model.HttpMethod;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
@@ -48,6 +49,9 @@ public class HarDiscoverer {
             for (HarEntry entry : har.getLog().getEntries()) {
                 try {
                     HarRequest request = entry.getRequest();
+                    if(request.getMethod() == HttpMethod.CONNECT){
+                        continue;
+                    }
                     discoveredRequests.add(
                             new DiscoveredRequest.Builder()
                                     .setBody(extractBody(request))
