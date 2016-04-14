@@ -128,6 +128,7 @@
     <orderEntry type="library" name="Maven: commons-configuration:commons-configuration:1.8" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.jackson:jackson-core-asl:1.9.11" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate:hibernate-validator:4.1.0.Final" level="project" />
+    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.3.1" level="project" />
     <orderEntry type="library" name="Maven: net.sf.opencsv:opencsv:2.3" level="project" />
     <orderEntry type="library" name="Maven: org.apache.commons:commons-csv:1.1" level="project" />
     <orderEntry type="library" name="Maven: activeQueryBuilder:activeQueryBuilder:activeQueryBuilder" level="project" />
@@ -209,10 +210,7 @@
     <orderEntry type="library" name="Maven: io.swagger:swagger-models:1.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.swagger:swagger-annotations:1.5.0" level="project" />
     <orderEntry type="library" name="Maven: io.swagger:swagger-parser:1.0.8" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.datatype:jackson-datatype-joda:2.4.2" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.4.2" level="project" />
-    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: joda-time:joda-time:2.2" level="project" />
     <orderEntry type="library" name="Maven: com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.4.2" level="project" />
     <orderEntry type="library" name="Maven: com.smartbear:ready-api-projects:1.7.0" level="project" />
@@ -234,6 +232,9 @@
     <orderEntry type="library" name="Maven: net.engio:mbassador:1.1.10" level="project" />
     <orderEntry type="library" name="Maven: com.miglayout:miglayout-core:5.0" level="project" />
     <orderEntry type="library" name="Maven: com.miglayout:miglayout-swing:5.0" level="project" />
-    <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.3.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.6.1" level="project" />
+    <orderEntry type="library" name="Maven: de.sstoehr:har-reader:2.0.0" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.6.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.6.1" level="project" />
   </component>
 </module>
