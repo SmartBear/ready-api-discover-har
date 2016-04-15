@@ -39,6 +39,6 @@ public class HarDiscoveryMethod implements DiscoveryMethod {
     }
 
     public String getDescription() {
-        return "Discover an API with a saved .har file";
+        return "Discover an API with a saved .har/.zhar file";
     }
 }
