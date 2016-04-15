@@ -6,6 +6,8 @@ import com.eviware.soapui.model.workspace.Workspace;
 import com.eviware.soapui.plugins.auto.PluginDiscoveryMethod;
 import com.eviware.soapui.support.UISupport;
 import com.eviware.soapui.support.types.StringList;
+import com.smartbear.analytics.Analytics;
+import com.smartbear.analytics.AnalyticsManager;
 import com.smartbear.ready.plugin.discovery.har.HarDiscoverer;
 import org.apache.commons.lang3.NotImplementedException;
 
@@ -24,6 +26,7 @@ public class HarDiscoveryMethod implements DiscoveryMethod {
     }
 
     public List<DiscoveredRequest> discoverResourcesSynchronously(Workspace workspace) {
+        Analytics.trackAction(AnalyticsManager.Category.CUSTOM_PLUGIN_ACTION, "DiscoverHAR");
         HashMap<String, StringList> extensions = new HashMap<>();
         extensions.put("HTTP Archive (.har/.zhar)", new StringList(new String[]{".har", ".zhar"}));
         File file = UISupport.getFileDialogs().openFile(null, "Open HTTP Archive file", extensions, "HTTP Archive (.har/.zhar)", null);
