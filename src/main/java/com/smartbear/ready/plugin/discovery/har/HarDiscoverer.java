@@ -90,6 +90,7 @@ public class HarDiscoverer {
             }
             return discoveredRequests;
         } catch (IOException e) {
+            UISupport.showErrorMessage(e);
             logger.error("Error reading zhar file", e);
         }
         return discoveredRequests;
