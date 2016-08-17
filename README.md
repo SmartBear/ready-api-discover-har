@@ -18,7 +18,7 @@ To create a project from a .har file:
 
 1. Select **File | New Project**.
 
-2. In the New Project dialog, switch to the REST Discovery tab and select **Use an HTTP Archave (.har/.zhar) file**. 
+2. In the New Project dialog, switch to the REST Discovery tab and select **Use an HTTP Archive (.har/.zhar) file**. 
 
 3. Click OK and select the .har file to create a project from. Ready! API will import the file and create a new project. It will then prompt you to save the created project.
 
