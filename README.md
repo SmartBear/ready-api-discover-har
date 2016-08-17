@@ -40,8 +40,8 @@ You can also build the plugin manually from the source code in this repository:
 
 ## Learn More About Ready! API
 
-[Ready! API](readyapi.smartbear.com/start)
+[Ready! API](http://readyapi.smartbear.com/start)
 
-[About Using Plugins in Ready! API](readyapi.smartbear.com/readyapi/plugins/start)
+[About Using Plugins in Ready! API](http://readyapi.smartbear.com/readyapi/plugins/start)
 
 [SmartBear Plugins](https://smartbear.com/plugins/)
