@@ -2,6 +2,7 @@ package com.smartbear.ready.plugin.discovery.har.factories;
 
 import com.eviware.soapui.impl.actions.DiscoveryMethod;
 import com.eviware.soapui.impl.rest.discovery.DiscoveredRequest;
+import com.eviware.soapui.impl.rest.discovery.RestDiscoveryMethod;
 import com.eviware.soapui.model.workspace.Workspace;
 import com.eviware.soapui.plugins.auto.PluginDiscoveryMethod;
 import com.eviware.soapui.support.UISupport;
@@ -43,5 +44,10 @@ public class HarDiscoveryMethod implements DiscoveryMethod {
 
     public String getDescription() {
         return "Discover an API with a saved .har/.zhar file";
+    }
+
+    @Override
+    public RestDiscoveryMethod getRestDiscoveryMethod() {
+        return null;
     }
 }
