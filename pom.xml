@@ -11,7 +11,7 @@
     <name>Ready! API Plugin for HTTP Archive Discovery</name>
 
     <properties>
-        <readyapi.version>3.10.0</readyapi.version>
+        <readyapi.version>3.20.0</readyapi.version>
     </properties>
 
     <repositories>
