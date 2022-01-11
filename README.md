@@ -34,7 +34,7 @@ You can also build the plugin manually from the source code in this repository:
 	C:\Git\ready-api-discover-har-master>mvn clean install
 	```
 
-3. Wait for the build to finish. Copy the *\ready-api-discover-har-master\target\ready-api-discover-har-1.0.2-dist.jar* file to the *<user folder>\\.soapui\plugins* folder (for example, on a Windows machine: C:\Users\readyuser\\.soapui\plugins).
+3. Wait for the build to finish. Copy the *\ready-api-discover-har-master\target\ready-api-discover-har-1.0.3-SNAPSHOT-dist.jar* file to the *<user folder>\\.soapui\plugins* folder (for example, on a Windows machine: C:\Users\readyuser\\.soapui\plugins).
 
 4. Start ReadyAPI. If it is already running, restart it to load and use the plugin.
 

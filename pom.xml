@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ready-api-discover-har</artifactId>
-	<groupId>com.smartbear</groupId>
-	<version>1.0.2</version>
+    <groupId>com.smartbear</groupId>
+    <version>1.0.3-SNAPSHOT</version>
 
     <name>Ready! API Plugin for HTTP Archive Discovery</name>
 
