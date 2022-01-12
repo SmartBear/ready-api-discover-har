@@ -5,10 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ready-api-discover-har</artifactId>
-	<groupId>com.smartbear</groupId>
-	<version>1.0.2</version>
+    <groupId>com.smartbear</groupId>
+    <version>1.0.3-SNAPSHOT</version>
 
     <name>Ready! API Plugin for HTTP Archive Discovery</name>
+
+    <properties>
+        <readyapi.version>3.20.0</readyapi.version>
+    </properties>
 
     <repositories>
         <repository>
@@ -58,14 +62,54 @@
         <dependency>
             <groupId>com.smartbear</groupId>
             <artifactId>ready-api-soapui-pro</artifactId>
-            <version>1.7.0</version>
+            <version>${readyapi.version}</version>
             <scope>compile</scope>
+
+            <exclusions>
+                <exclusion>
+                    <groupId>net.sf.jasperreports</groupId>
+                    <artifactId>jasperreports</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.teamdev.jxbrowser</groupId>
+                    <artifactId>jxbrowser-win32</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.teamdev.jxbrowser</groupId>
+                    <artifactId>jxbrowser-win64</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.teamdev.jxbrowser</groupId>
+                    <artifactId>jxbrowser-mac</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.teamdev.jxbrowser</groupId>
+                    <artifactId>jxbrowser-linux64</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.teamdev.jxbrowser</groupId>
+                    <artifactId>jxbrowser</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>com.teamdev.jxbrowser</groupId>
+                    <artifactId>jxbrowser-swing</artifactId>
+                </exclusion>
+
+
+            </exclusions>
+
         </dependency>
         <dependency>
             <groupId>com.smartbear</groupId>
             <artifactId>ready-api-projects</artifactId>
-            <version>1.7.0</version>
+            <version>${readyapi.version}</version>
             <scope>compile</scope>
+            <exclusions>
+                <exclusion>
+                    <groupId>net.sf.jasperreports</groupId>
+                    <artifactId>jasperreports</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
