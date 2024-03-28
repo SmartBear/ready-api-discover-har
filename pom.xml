@@ -11,7 +11,7 @@
     <name>Ready! API Plugin for HTTP Archive Discovery</name>
 
     <properties>
-        <readyapi.version>3.20.0</readyapi.version>
+        <readyapi.version>3.52.0-SNAPSHOT</readyapi.version>
     </properties>
 
     <repositories>
@@ -28,13 +28,13 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.5.1</version>
                 <configuration>
-                    <source>1.7</source>
-                    <target>1.7</target>
+                    <source>1.8</source>
+                    <target>1.8</target>
                 </configuration>
             </plugin>
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
-                <version>2.6</version>
+                <version>3.1.1</version>
                 <configuration>
                     <descriptors>
                         <descriptor>src/assembly/dist-assembly.xml</descriptor>
