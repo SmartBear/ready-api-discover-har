@@ -6,12 +6,12 @@
 
     <artifactId>ready-api-discover-har</artifactId>
     <groupId>com.smartbear</groupId>
-    <version>1.0.4</version>
+    <version>1.0.5-SNAPSHOT</version>
 
     <name>Ready! API Plugin for HTTP Archive Discovery</name>
 
     <properties>
-        <readyapi.version>3.52.0</readyapi.version>
+        <readyapi.version>3.64.0-SNAPSHOT</readyapi.version>
     </properties>
 
     <repositories>
