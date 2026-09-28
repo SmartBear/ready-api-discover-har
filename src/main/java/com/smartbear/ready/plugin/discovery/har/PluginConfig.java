@@ -8,6 +8,6 @@ import com.eviware.soapui.plugins.PluginConfiguration;
         description = "Use an HTTP Archive (HAR) in REST Discovery",
         infoUrl = "https://github.com/SmartBear/ready-api-discover-har",
         minimumSoapUIVersion = "99.0.0",
-        minimumReadyApiVersion="3.64.0")
+        minimumReadyApiVersion="4.3.0-SNAPSHOT")
 public class PluginConfig extends PluginAdapter {
 }
