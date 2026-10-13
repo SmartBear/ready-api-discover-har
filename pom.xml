@@ -6,12 +6,12 @@
 
     <artifactId>ready-api-discover-har</artifactId>
     <groupId>com.smartbear</groupId>
-    <version>1.0.6-SNAPSHOT</version>
+    <version>1.1.0</version>
 
     <name>Ready! API Plugin for HTTP Archive Discovery</name>
 
     <properties>
-        <readyapi.version>4.3.0-SNAPSHOT</readyapi.version>
+        <readyapi.version>4.3.0</readyapi.version>
         <maven-assembly-plugin.version>3.7.1</maven-assembly-plugin.version>
         <maven-compiler-plugin.version>3.13.0</maven-compiler-plugin.version>
         <maven-enforcer-plugin.version>3.5.0</maven-enforcer-plugin.version>
