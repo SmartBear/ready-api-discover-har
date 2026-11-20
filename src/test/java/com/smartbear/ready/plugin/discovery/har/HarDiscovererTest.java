@@ -1,15 +1,15 @@
 package com.smartbear.ready.plugin.discovery.har;
 
 import com.eviware.soapui.impl.rest.discovery.DiscoveredRequest;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.io.File;
 import java.util.List;
 
-public class HarDiscovererTest {
+class HarDiscovererTest {
 
     @Test
-    public void harDiscoveryTest() throws Exception {
+    void harDiscoveryTest() {
         File harFile = new File(HarDiscovererTest.class.getResource("dn.har").getFile().replace("%20", " "));
 
         List<DiscoveredRequest> discoveredRequests = HarDiscoverer.discoverHar(harFile);
@@ -19,7 +19,7 @@ public class HarDiscovererTest {
         }
     }
     @Test
-    public void zharDiscoveryTest() throws Exception {
+    void zharDiscoveryTest() {
         File harFile = new File(HarDiscovererTest.class.getResource("test.zhar").getFile().replace("%20", " "));
 
         List<DiscoveredRequest> discoveredRequests = HarDiscoverer.discoverZhar(harFile);
